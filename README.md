@@ -22,7 +22,7 @@ The model was trained in Google Colab (A100). The standard PyTorch-based trainin
 
 ### Losses
 
-The combination of [Structural Similarity Index (SSIM)](https://arxiv.org/pdf/2006.13846.pdf), L1, and [Smooth Loss](https://arxiv.org/pdf/1806.01260.pdf) was used.  
+The combination of [Structural Similarity Index (SSIM)](https://arxiv.org/pdf/2006.13846.pdf), L1, and [Smooth Loss](https://arxiv.org/pdf/1806.01260.pdf) was used for depth map.  
 This loss function is based on L1 loss, while SSIM and Smooth losses help the model produce sharper details in the depth map.
 
 $$
@@ -33,6 +33,7 @@ $$
 L = \alpha \cdot L_{\text{SSIM}} + (1 - \alpha) \cdot L_1 + \lambda \cdot L_{\text{smooth}}
 $$
 
+For depth distribution RMSE Loss was used.
 
 ### Metrics
 
