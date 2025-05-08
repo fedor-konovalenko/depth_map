@@ -61,6 +61,6 @@ $$RMSE_{log} = \sqrt{\frac{1}{N}\sum |log_{10}d_i - log_{10}\widehat{d_i}|^2}$$
 
 As a result, a model was trained and tested that provides the required inference time on a mobile device and has better quality compared to the base model. And smoothing the predicted depth maps using the moving average method, as shown in the [notebook](https://github.com/fedor-konovalenko/depth_map/blob/main/notebooks/tests.ipynb), allowed us to obtain higher-quality depth maps, which will allow us to use the model in applications using augmented reality.
 
-[![Depth map example]("https://img.youtube.com/vi/ID/0.jpg")]([https://drive.google.com/file/d/1aM30RxO1CObsautKWvDfDUWqh8aE1qjU/view])
+[![Depth map example]("https://img.youtube.com/vi/ID/0.jpg")](https://drive.google.com/file/d/1aM30RxO1CObsautKWvDfDUWqh8aE1qjU/view)
 
 ---
