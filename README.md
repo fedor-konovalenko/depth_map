@@ -20,6 +20,10 @@ Compared to the basic model, an additional depth map was extracted from the enco
 
 The model was trained in Google Colab (A100). The standard PyTorch-based training loop was used.
 
+The model training results.
+
+<img src="https://drive.google.com/uc?export=view&id=1LheO4yYG6nL1gnlQ8qKI7Ji8WzvjSYla" width="600"/>
+
 ### Losses
 
 The combination of [Structural Similarity Index (SSIM)](https://arxiv.org/pdf/2006.13846.pdf), L1, and [Smooth Loss](https://arxiv.org/pdf/1806.01260.pdf) was used for depth map.  
